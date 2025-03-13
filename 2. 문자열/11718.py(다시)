@@ -1,0 +1,17 @@
+## try except 사용하기
+import sys
+while True:
+    try:
+        print(input())
+    except E0FError:
+        break
+
+## sys.stdin.readlines() 사용하기
+import sys
+
+while True:
+  s = sys.stdin.readline().rstrip()
+  if s == '':
+    break
+  else:
+    print(s)

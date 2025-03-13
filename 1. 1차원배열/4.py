@@ -4,7 +4,7 @@ n_list = []
 for i in range(9):
     n = int(input())
     n_list.append((n, i+1))
-
+    
 max_value,max_index = n_list[0]
 
 for value,index in n_list:
